@@ -1,0 +1,16 @@
+tensorflow
+keras-hub
+numpy
+pandas
+scikit-learn
+pyyaml
+matplotlib
+seaborn
+opencv-python
+fastapi
+uvicorn
+python-multipart
+pytest
+streamlit
+pillow
+gdown

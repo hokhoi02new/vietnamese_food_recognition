@@ -1,0 +1,22 @@
+# config.yaml
+
+paths:
+  data_dir: "data"
+  train_dir: "data/train"
+  val_dir: "data/val"
+  test_dir: "data/test"
+  saved_model_dir: "saved_models"
+  result_dir: "result"
+
+image:
+  height: 224
+  width: 224
+
+classes:
+  names: ["Banh canh", "Bun bo Hue", "Com tam", "Goi cuon", "Hu tieu", "Pho"]
+
+training:
+  epochs: 20
+  batch_size: 32
+  learning_rate: 0.0001
+  backbone: "ViT"

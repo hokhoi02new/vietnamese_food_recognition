@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: vietnamese-food-api
+    env: docker
+    plan: free
+    autoDeploy: true
