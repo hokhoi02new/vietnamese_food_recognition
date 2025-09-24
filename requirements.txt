@@ -13,4 +13,5 @@ python-multipart
 pytest
 streamlit
 pillow
-gdown
+gdown>=4.7.1
+requests>=2.28.0
