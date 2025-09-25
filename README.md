@@ -16,7 +16,7 @@ This project focuses on building a system to classify and recognize traditional 
 ```
 vietnamese_food_recognition/
 │── app/                # API and UI
-│   ├── app_UI.py       # Web interface UI
+│   ├── app_UI.py       # UI
 │   ├── main.py         # API backend (FastAPI)
 │── config/             # config file
 │── data/               # dataset 
