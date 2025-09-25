@@ -37,8 +37,10 @@ vietnamese_food_recognition/
 │   ├── utils.py        # utility functions (logging, plotting....)
 │── test/               # tests API
 │   ├── uni_test.py
+├── convert_to_onxx.py  #script convert model to ONXX format for deployment
 │── uploads/            # folder server: uploaded images for prediction
-│── requirements.txt    
+│── requirements.txt
+│── requirements-train-local.txt   
 │── Dockerfile          # docker file
 │── render.yaml         # file config deploy for Render cloud platform
 │── LICENSE
@@ -59,7 +61,7 @@ cd vietnamese-food-recognition
 
 #### Install dependencies
 ```
-pip install -r requirements.txt
+pip install -r requirements-train-local.txt
 ```
 
 #### Training
