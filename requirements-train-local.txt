@@ -7,11 +7,4 @@ pyyaml
 matplotlib
 seaborn
 opencv-python
-fastapi
-uvicorn
-python-multipart
-pytest
-streamlit
 pillow
-gdown
-onnxruntime
