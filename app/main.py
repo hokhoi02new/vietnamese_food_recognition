@@ -21,7 +21,7 @@ def load_model(backbone=BACKBONE):
     if not os.path.exists(model_path):
         os.makedirs(SAVED_MODEL_DIR, exist_ok=True)
         print("Downloading model from Google Drive...")
-        url = "https://drive.google.com/uc?id=1PM5CsIEGAeJY2ezkzn3lgqrFq8ZJpese"   
+        url = "https://drive.google.com/uc?id=12CUV6RYnBr_2GBTZ9IYJhtPLAmrOKHYB"   
         gdown.download(url, model_path, quiet=False)
     
     try:
