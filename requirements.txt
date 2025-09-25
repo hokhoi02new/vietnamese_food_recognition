@@ -1,6 +1,6 @@
 tensorflow
 numpy
-yaml
+PyYAML
 opencv-python
 fastapi
 uvicorn
