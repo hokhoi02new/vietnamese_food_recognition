@@ -65,7 +65,6 @@ pip install -r requirements-train-local.txt
 ```
 
 #### Training
-Training model
 ```
 python -m src.train --model mobilenet_v2 --epochs 20 --batch_size 32
 ```
@@ -80,7 +79,7 @@ Trained models will be saved in `saved_models/` and logs in `logs/`.
 ---
 
 #### Evaluation
-Evaluate trained model:
+- Evaluate trained model:
 ```bash
 python src/evaluate.py --model mobilenet_v2 --test_dir data/test --output_dir result
 ```
@@ -90,7 +89,7 @@ Results will be stored in the `result` directory.
 ---
 
 #### Inference (Prediction)
-Make predictions on new images:
+- Make predictions on new images:
 ```bash
 python src/inference.py --image <path_to_image>.jpg --model mobilenet_v2 
 ```
@@ -98,7 +97,7 @@ python src/inference.py --image <path_to_image>.jpg --model mobilenet_v2
 ---
 
 #### Running API & UI
-Start the API and Web UI:
+- Start the API and Web UI:
 ```bash
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000     # Start API
 streamlit run app/app_UI.py    # Start web UI
@@ -108,6 +107,7 @@ Open your browser, API run at: http://127.0.0.1:8000 (local)
 
 ---
 #### Test API
+- Unit test
 ```bash
 pytest test/uni_test.py
 ```
