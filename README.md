@@ -1,4 +1,4 @@
-# 🍜 Vietnamese Traditional Food Recognition
+# 🍜 Vietnamese Traditional Food Classification
 
 ### Introduction
 This project focuses on building a system to classify and recognize traditional Vietnamese dishes using deep learning and computer vision techniques. The goal is to support applications in tourism, restaurants, and enhance user experience.
@@ -14,7 +14,7 @@ This project focuses on building a system to classify and recognize traditional 
 
 ### Project Structure
 ```
-vietnamese_food_recognition/
+vietnamese_traditional_food_classification/
 │── app/                # API and UI
 │   ├── app_UI.py       # UI
 │   ├── main.py         # API backend (FastAPI)
