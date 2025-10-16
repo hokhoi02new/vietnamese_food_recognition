@@ -55,8 +55,8 @@ vietnamese_traditional_food_classification/
 
 #### Clone the repository
 ```
-git clone https://github.com/yourusername/vietnamese-food-recognition.git
-cd vietnamese-food-recognition
+git clone https://github.com/hokhoi02new/vietnamese_traditional_food_classification.git
+cd vietnamese_traditional_food_classification
 ```
 
 #### Install dependencies
